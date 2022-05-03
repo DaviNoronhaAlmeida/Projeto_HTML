@@ -22,13 +22,13 @@
     <p>O MozillaZine, um site com notícias, fóruns e weblogs para a discussão de assuntos relativos ao Mozilla (operado por entusiastas dos produtos Mozilla), foi fundado em 1 de setembro de 1998. No Brasil, existe o br.mozdev.org., sendo o site oficial brasileiro da Mozilla.</p>
     <p>A intenção da Mozilla Foundation é aposentar a suíte Mozilla e substituí-la pelo Firefox. Em 10 de março de 2005, foi anunciado que os lançamentos oficiais da suíte se encerrariam com as versões 1.7.x. Como existem usuários corporativos da mesma, a série 1.7.x ainda é desenvolvida tendo apenas atualizações de segurança em seu roadmap. A versão 1.8.x, que já se encontrava em estado maduro de beta, não foi liberada para não acumular trabalho com atualizações de segurança para 1.7.x e 1.8.x. A versão 1.8.x foi substituída pelo novo navegador SeaMonkey, que continua sendo desenvolvido pela comunidade colaboradora com poucas diferenças iniciais da suíte Mozilla.</p>
 
-    <h2>Navegadores mais usados no Brasil:</h2>
+    <h3>Navegadores mais usados no Brasil:</h3>
 
     <table border="1px">
         <thead>
             <tr>
-                <td>Navegador</td>
-                <td>Porcentagem (%)</td>
+                <th>Navegador</th>
+                <th>Porcentagem (%)</th>
             </tr>
         </thead>
         <tbody>
@@ -62,5 +62,17 @@
             </tr>
         </tbody>
     </table>
+
+    <form>
+        <p>Você utiliza o Mozilla?</p>
+        <input type="radio" id="s" name="usa">
+        <label for="s">Sim</label><br>
+        <input type="radio" id="n" name="usa">
+        <label for="n">Não</label><br>
+
+        <p>O que você acha dele?</p>
+        <textarea placeholder="Escreva aqui..."></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
