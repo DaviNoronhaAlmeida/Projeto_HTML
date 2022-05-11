@@ -1,98 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navegadores Web</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <main>
+  <body>
+    <header>
+      <h1>Ferramentas de Navegação Web</h1>
+    </header>
+    <main>
+      <section>
+        <h3>Quadro com statísticas de navegadores de desktop e laptop:</h3>
 
-    <body
-      style="
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
-      "
-    >
-      <h1><center>Ferramentas de Navegação Web</center></h1>
-    
+        <table id="tabBrowsers">
+          <thead>
+            <tr>
+              <th class="ital">Navegador</th>
+              <th class="ital">Percentual de Usuários</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google Chrome</td>
+              <td>66,30%</td>
+            </tr>
+            <tr>
+              <td>Apple Safari</td>
+              <td>16,76%</td>
+            </tr>
+            <tr>
+              <td>Mozilla Firefox</td>
+              <td>4.08%</td>
+            </tr>
+            <tr>
+              <td>Samsung Int.</td>
+              <td>3,24%</td>
+            </tr>
+            <tr>
+              <td>Microsoft Edge</td>
+              <td>2,61%</td>
+            </tr>
+            <tr>
+              <td>Opera Browser</td>
+              <td>2,06%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
       <h2>
-        <table border="0px" style="margin: auto; width: 80%">
+        <table class="tableIcon">
           <tr>
-            <th><a href="google_chrome.html">Chrome</a></th>
-            <th><a href="mozilla.html">Firefox</a></th>
-            <th><a href="opera.html">Opera</a></th>
-            <th><a href="safari.html">Safari</a></th>
+            <th>
+              <a href="google_chrome.html" class="linksBrowser">Chrome</a>
+            </th>
+            <th><a href="mozilla.html" class="linksBrowser">Firefox</a></th>
+            <th><a href="opera.html" class="linksBrowser">Opera</a></th>
+            <th><a href="safari.html" class="linksBrowser">Safari</a></th>
           </tr>
           <tr>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="google-chrome-logo.png"
-                alt="chrome"
+                class="tableLink"
+                src="./images/chrome-logo.png"
+                alt="icone chrome"
               />
             </td>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="Firefox_logo,_2017.png"
-                alt="firefox"
+                class="tableLink"
+                src="./images/Firefox_logo.png"
+                alt="icone firefox"
               />
             </td>
-            <td style="text-align: center;">
-              <img style="width: 40px" src="opera-logo-browser.png" alt="opera" />
-            </td>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="Safari_browser_logo.svg"
-                alt="safari"
+                class="tableLink"
+                src="./images/opera-logo-browser.png"
+                alt="icone opera"
+              />
+            </td>
+            <td>
+              <img
+                class="tableLink"
+                src="./images/Safari_browser_logo.svg"
+                alt="icone safari"
               />
             </td>
           </tr>
         </table>
       </h2>
-
-      <section>
-        <h3>Estatísticas de navegadores de desktop e laptop</h3>
-
-        <table border="1px">
-            <thead>
-                <tr>
-                <th>Navegador</th>
-                <th>percentual</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td>Google Chrome</td>
-                <td>66.3%</td>
-                </tr>
-                <tr>
-                <td>Safari</td>
-                <td>16.76%</td>
-                </tr>
-                <tr>
-                <td>Firefox</td>
-                <td>4.08%</td>
-                </tr>
-                <tr>
-                <td>Samsung Int.</td>
-                <td>3.24%</td>
-                </tr>
-                <tr>
-                <td>Microsoft Edge</td>
-                <td>2.61%</td>
-                </tr>
-                <tr>
-                <td>Opera</td>
-                <td>2.06%</td>
-                </tr>
-            </tbody>             
-        </table>
-      </section>
-    </body>
-
-  </main>
-  
+    </footer>
+  </body>
 </html>
