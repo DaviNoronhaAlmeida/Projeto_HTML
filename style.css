@@ -42,6 +42,7 @@ header {
 
 .linksBrowser:link {
   text-decoration: none;
+  padding: 10px;
 }
 
 .linksBrowser:hover {
@@ -66,4 +67,8 @@ footer {
   position: relative;
   text-align: center;
   background-color: powderblue;
+}
+
+#ferramentas {
+  text-align: center;
 }
