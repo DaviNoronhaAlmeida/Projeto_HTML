@@ -19,7 +19,7 @@ body {
   width: 50%;
 }
 
-header {
+header, #ferramentas {
   text-align: center;
 }
 
@@ -42,6 +42,7 @@ header {
 
 .linksBrowser:link {
   text-decoration: none;
+  padding: 10px;
 }
 
 .linksBrowser:hover {
