@@ -19,7 +19,7 @@ body {
   width: 50%;
 }
 
-header {
+header, #ferramentas {
   text-align: center;
 }
 
@@ -67,8 +67,4 @@ footer {
   position: relative;
   text-align: center;
   background-color: powderblue;
-}
-
-#ferramentas {
-  text-align: center;
 }
