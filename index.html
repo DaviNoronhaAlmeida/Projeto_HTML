@@ -1,98 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navegadores Web</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <main>
+  <body>
+    <header>
+      <h1>Navegador</h1>
+    </header>
+    <main>
+      <section>
+        <p>
+          Os navegadores, ou em inglês browsers, são programas concebidos para abrir páginas de Internet, conhecidas também por web sites ou simplesmente sites, que podem ser escritas em linguagens como HTML, HTML5 ou XHTML. Estes sites têm de estar hospedados em servidores Web (ou em inglês Web Servers).
+        </p>
+        <p>
+          Um navegador web te leva para qualquer lugar na internet. Ele obtém informações de outras partes da web e as exibe em seu computador ou dispositivo móvel. As informações são transferidas usando o Protocolo de Transferência de Hipertexto, que define como textos, imagens e vídeos são transmitidos na web. Essas informações precisam ser compartilhadas e exibidas num formato consistente, para que as pessoas que usam qualquer navegador, em qualquer lugar do mundo, possam ver as informações.
+        </p>
+        <p>
+          Quando o navegador web pega dados de um servidor conectado á internet, ele usa um tipo de software chamado mecanismo de renderização para traduzir tais dados em texto e imagens. Esses dados estão escritos em Hypertext Markup Language (HTML). Os navegadores web leem esse código para criar o que vemos, ouvimos e experienciamos na internet.
+          Links permitem aos usuários seguir um caminho para outras páginas ou sites na web. Cada página, imagem e vídeo tem seu próprio Localizador Uniforme de Recursos (URL) único, também conhecido como endereço web. Quando um navegador visita um servidor para obter dados, o endereço web informa ao navegador onde procurar cada item descrito no código html, que então indica ao navegador onde posicionar na página web.
+        </p>
+        <p>
+          Todos os produtores de navegadores desenvolvem seus produtos para exibir imagens e vídeos o mais rápido possível e sem dificuldades, facilitando aproveitar a web ao máximo. Todos trabalham duro para garantir que os usuários tenham um navegador rápido, poderoso e fácil de usar. Como eles diferem, é importante escolher o navegador certo para você.
+        </p>
+      </section>
+      <section>
+        <h1 id="ferramentas">Ferramentas de Navegação Web</h1>
+        <h4>Quadro com estatísticas de uso de navegadores entre usuários de desktop e laptop:</h4>
 
-    <body
-      style="
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
-      "
-    >
-      <h1><center>Ferramentas de Navegação Web</center></h1>
-    
+        <table id="tabBrowsers">
+          <thead>
+            <tr>
+              <th class="ital">Navegador</th>
+              <th class="ital">Percentual de Usuários</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Google Chrome</td>
+              <td>66,30%</td>
+            </tr>
+            <tr>
+              <td>Apple Safari</td>
+              <td>16,76%</td>
+            </tr>
+            <tr>
+              <td>Mozilla Firefox</td>
+              <td>4.08%</td>
+            </tr>
+            <tr>
+              <td>Samsung Int.</td>
+              <td>3,24%</td>
+            </tr>
+            <tr>
+              <td>Microsoft Edge</td>
+              <td>2,61%</td>
+            </tr>
+            <tr>
+              <td>Opera Browser</td>
+              <td>2,06%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+
       <h2>
-        <table border="0px" style="margin: auto; width: 80%">
+        <table class="tableIcon">
           <tr>
-            <th><a href="google_chrome.html">Chrome</a></th>
-            <th><a href="mozilla.html">Firefox</a></th>
-            <th><a href="opera.html">Opera</a></th>
-            <th><a href="safari.html">Safari</a></th>
+            <th>
+              <a href="google_chrome.html" class="linksBrowser">Chrome</a>
+            </th>
+            <th><a href="mozilla.html" class="linksBrowser">Firefox</a></th>
+            <th><a href="opera.html" class="linksBrowser">Opera</a></th>
+            <th><a href="safari.html" class="linksBrowser">Safari</a></th>
           </tr>
           <tr>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="google-chrome-logo.png"
-                alt="chrome"
+                class="tableLink"
+                src="./images/chrome-logo.png"
+                alt="icone chrome"
               />
             </td>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="Firefox_logo,_2017.png"
-                alt="firefox"
+                class="tableLink"
+                src="./images/Firefox_logo.png"
+                alt="icone firefox"
               />
             </td>
-            <td style="text-align: center;">
-              <img style="width: 40px" src="opera-logo-browser.png" alt="opera" />
-            </td>
-            <td style="text-align: center;">
+            <td>
               <img
-                style="width: 40px"
-                src="Safari_browser_logo.svg"
-                alt="safari"
+                class="tableLink"
+                src="./images/opera-logo-browser.png"
+                alt="icone opera"
+              />
+            </td>
+            <td>
+              <img
+                class="tableLink"
+                src="./images/Safari_browser_logo.svg"
+                alt="icone safari"
               />
             </td>
           </tr>
         </table>
       </h2>
-
-      <section>
-        <h3>Estatísticas de navegadores de desktop e laptop</h3>
-
-        <table border="1px">
-            <thead>
-                <tr>
-                <th>Navegador</th>
-                <th>percentual</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td>Google Chrome</td>
-                <td>66.3%</td>
-                </tr>
-                <tr>
-                <td>Safari</td>
-                <td>16.76%</td>
-                </tr>
-                <tr>
-                <td>Firefox</td>
-                <td>4.08%</td>
-                </tr>
-                <tr>
-                <td>Samsung Int.</td>
-                <td>3.24%</td>
-                </tr>
-                <tr>
-                <td>Microsoft Edge</td>
-                <td>2.61%</td>
-                </tr>
-                <tr>
-                <td>Opera</td>
-                <td>2.06%</td>
-                </tr>
-            </tbody>             
-        </table>
-      </section>
-    </body>
-
-  </main>
-  
+    </footer>
+  </body>
 </html>
